@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143de47e-ecdb-42e0-9d65-a46dec055ddc" name="Changes" comment="27.05.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/QualitydemyStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1006_AmazonUrunDogrulama.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1007_ScenerioOutlineIleCokluAmazonAramasi.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1008_QualitydemyCokluNegatifLoginTesti.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AutoExerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Guru99Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/ParalelRunner1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/ParalelRunner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/AutomationExerciseStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GuruStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1009_AutomationExercise1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1010_AutomationExercise2.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1011_gGuru99.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US1012_Guru99PreviousClose.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US1004_ParametreKullanimi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US1004_ParametreKullanimi.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,31 +51,38 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Wise-Quarter/Documents/Cucumber/com.Team113_Cucumber/src/test/java/pages",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Wise-Quarter/Documents/Cucumber/com.Team113_Cucumber/src/test/java/pages&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Wise-Quarter\Documents\Cucumber\com.Team113_Cucumber\src\test\java\pages" />
       <recent name="C:\Users\Wise-Quarter\Documents\Cucumber\com.Team113_Cucumber\src" />
       <recent name="C:\Users\Wise-Quarter\Documents\Cucumber\com.Team113_Cucumber\src\test\java\utilities" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Feature: US1005_HerokuappTesti" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC18 DCB'nin  onceki kapanis degerini test eder">
+    <configuration name="Scenario: TC15 Kullanici kendi bilgileriyle yeni kullanici olusturabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1005_HerokuappTesti.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1009_AutomationExercise1.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.Team113_Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US1005_HerokuappTesti" />
+      <option name="NAME_FILTER" value="^TC15 Kullanici kendi bilgileriyle yeni kullanici olusturabilmeli$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC15 Kullanici kendi bilgileriyle yeni kullanici olusturabilmeli$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC15 Kullanici kendi bilgileriyle yeni kullanici olusturabilmeli" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -79,15 +94,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC11 kullanici butonlari ve cikan yazilari test eder (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC16 eksik email ile sisteme giris yapilamaz" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1005_HerokuappTesti.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1010_AutomationExercise2.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.Team113_Cucumber" />
-      <option name="NAME_FILTER" value="^TC11 kullanici butonlari ve cikan yazilari test eder$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC11 kullanici butonlari ve cikan yazilari test eder$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC11 kullanici butonlari ve cikan yazilari test eder" />
+      <option name="NAME_FILTER" value="^TC16 eksik email ile sisteme giris yapilamaz$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC16 eksik email ile sisteme giris yapilamaz$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC16 eksik email ile sisteme giris yapilamaz" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -99,15 +114,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC13 Kullanici Amazonda coklu arama yapabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC17 Kullanici listeyi yazdirir ve aranan sirketin varligini test eder" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1007_ScenerioOutlineIleCokluAmazonAramasi.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1011_gGuru99.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.Team113_Cucumber" />
-      <option name="NAME_FILTER" value="^TC13 Kullanici Amazonda coklu arama yapabilmeli$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC13 Kullanici Amazonda coklu arama yapabilmeli$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC13 Kullanici Amazonda coklu arama yapabilmeli" />
+      <option name="NAME_FILTER" value="^TC17 Kullanici listeyi yazdirir ve aranan sirketin varligini test eder$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC17 Kullanici listeyi yazdirir ve aranan sirketin varligini test eder$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC17 Kullanici listeyi yazdirir ve aranan sirketin varligini test eder" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -119,15 +134,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC14 Kullanici listedeki kullanici bilgileri ile giris yapilamadigini test eder" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC18 DCB'nin  onceki kapanis degerini test eder" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1008_QualitydemyCokluNegatifLoginTesti.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US1012_Guru99PreviousClose.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="com.Team113_Cucumber" />
-      <option name="NAME_FILTER" value="^TC14 Kullanici listedeki kullanici bilgileri ile giris yapilamadigini test eder$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC14 Kullanici listedeki kullanici bilgileri ile giris yapilamadigini test eder$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC14 Kullanici listedeki kullanici bilgileri ile giris yapilamadigini test eder" />
+      <option name="NAME_FILTER" value="^TC18 DCB\'nin  onceki kapanis degerini test eder$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC18 DCB\'nin  onceki kapanis degerini test eder$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC18 DCB'nin  onceki kapanis degerini test eder" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -156,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC18 DCB'nin  onceki kapanis degerini test eder" />
+        <item itemvalue="Cucumber Java.Scenario: TC17 Kullanici listeyi yazdirir ve aranan sirketin varligini test eder" />
+        <item itemvalue="Cucumber Java.Scenario: TC16 eksik email ile sisteme giris yapilamaz" />
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Scenario: TC14 Kullanici listedeki kullanici bilgileri ile giris yapilamadigini test eder" />
-        <item itemvalue="Cucumber Java.Scenario: TC13 Kullanici Amazonda coklu arama yapabilmeli" />
-        <item itemvalue="Cucumber Java.Feature: US1005_HerokuappTesti" />
-        <item itemvalue="Cucumber Java.Scenario: TC11 kullanici butonlari ve cikan yazilari test eder (1)" />
+        <item itemvalue="Cucumber Java.Scenario: TC15 Kullanici kendi bilgileriyle yeni kullanici olusturabilmeli" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685202557176</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="27.05.2023">
+      <created>1685205802166</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685205802166</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
